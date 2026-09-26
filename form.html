@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="register.php" method="post">
+        <lable>Name:</lable>
+        <input type="text" name="name" placeholder="Enter your name" required>
+
+        <br><br>
+
+        <lable>Phone No.:</lable>
+        <input type="tel" name="Phone No." placeholder="Enter your phone no." required>
+
+        <br><br>
+
+        <lable>Password:</lable>
+        <input type="password" name="password" required>
+
+        <br><br>
+
+        <lable>Gender:</lable>
+        <input type="radio" name="gender" value="male">male
+        <input type="radio" name="gender" value="female">female
+
+        <br><br>
+
+        <lable>City:</lable>
+        <select name="city">
+            <option>Delhi</optio>
+            <option>Jind</option>
+            <option>jalander</option>
+        </select>
+
+        <br><br>
+        
+        <label>Feedback:</label><br>
+        <textarea name="feedback" rows="5" cols="20"></textarea>
+
+        <br><br>
+
+        <button type="sumbit" value="Register"> Register</botton>
+    </form>
+</body>
+</html>
